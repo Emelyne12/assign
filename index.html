@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mortgage Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>🏠 Mortgage Calculator</h2>
+    
+    <div class="form-group">
+      <label for="principal">Principal (Loan Amount):</label>
+      <input type="number" id="principal" placeholder="Enter loan amount">
+    </div>
+
+    <div class="form-group">
+      <label for="rate">Annual Interest Rate (%):</label>
+      <input type="number" id="rate" placeholder="Enter interest rate">
+    </div>
+
+    <div class="form-group">
+      <label for="years">Loan Term (Years):</label>
+      <input type="number" id="years" placeholder="Enter loan term">
+    </div>
+
+    <button id="calculateBtn">Calculate</button>
+
+    <h3 id="result"></h3>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
